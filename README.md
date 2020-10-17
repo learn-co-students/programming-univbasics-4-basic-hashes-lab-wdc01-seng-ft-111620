@@ -51,7 +51,7 @@ Alternatively, we could explicitly create a new `Hash`:
 
 ```rb
 def new_hash
-  Hash.new
+  { :favorite_holiday => "Thanksgiving"}
 end
 ```
 
